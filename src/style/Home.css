@@ -1,0 +1,12 @@
+.home-box{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-home{
+    color: orange;
+}
+.button-home:hover{
+    color: rgb(232, 163, 33);
+}
