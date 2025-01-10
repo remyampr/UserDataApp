@@ -53,7 +53,7 @@ const User = () => {
       <Container className="user-card-box">
         <Row>
           {users.map((user) => (
-            <Col xs={6} md={4} className="column" key={user.id}>
+            <Col xs={12} md={6} lg={4} className="column" key={user.id}>
               <Card style={{ width: "21rem" }}>
                 <Card.Body>
                   <Card.Title className="card-name"> Name : {user.name}</Card.Title>
